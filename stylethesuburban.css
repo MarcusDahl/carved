@@ -1,0 +1,121 @@
+.parallax {
+    background: url("images/banner.jpg") no-repeat fixed;
+    background-size:cover;
+}
+
+.parallax-inner {
+    padding-top:200px;
+    padding-bottom:200px;
+}
+
+#logoimg {
+    position: fixed;
+    width:300px;
+    margin-left:170px;
+    padding:30px;
+    z-index:100;
+    mix-blend-mode: difference;
+}
+#navbarContainer {
+    position: fixed;
+    height:100%;
+    width:150px;
+    padding-left:20px;
+    background-color: #30382A;
+    z-index:100;
+}
+
+#navbarContainer ul {
+    margin-top:30px;
+    list-style-type: none;
+    font-family: louis_george_caferegular;
+    color:#D9C3A2;
+}
+
+#navbarContainer li a {
+    margin-bottom:10px;
+    padding:5px;
+    display:block;
+    width:140px;
+    background-color: none;
+}
+
+#navbarContainer li a:hover {
+    --textcolor: #D9C3A2;
+    background-color: #D9C3A2;
+    color: #30382A;
+    padding-left: 15px;
+    transition: padding-left 0.4s;
+}
+
+.menu {
+    position: fixed;
+}
+
+#bottomrowNav {
+    position:absolute;
+    bottom:10px;
+}
+
+#mainContainer {
+    margin-left:0;
+    width:100%;
+    background:#fff;
+    height:2000px;
+    padding-bottom: 100px;
+}
+
+#infoBox {
+    position:relative;
+    float:right;
+    top:-70px;
+    padding:20px 30px;
+    width:360px;
+    height:100px;
+    background:#B5AFA9;
+}
+
+#infoBox h1 {
+    font-family: Akira;
+    color:#212121;
+}
+
+#infoBox p {
+    margin:5px;
+    width:50%;
+    font-size:0.7em;
+    font-family: louis_george_caferegular;
+    text-align: right;
+    float:right;
+    color:#565451;
+    line-height:1;
+}
+
+#productsContainer {
+    margin-top:40px;
+    left:210px;
+    position:absolute;
+    padding:0;
+}
+
+
+.product {
+    display: inline-block;
+    margin-top:100px;
+    width:40%;
+    max-width: 450px;
+    text-align: center;
+    font-family: louis_george_caferegular;
+    font-weight: 100;
+}
+
+.product p {
+    margin-top:5px;
+}
+
+.productimg {
+    width:80%;
+    margin-bottom:10px;
+    position: relative;
+}
+
